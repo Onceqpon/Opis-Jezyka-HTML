@@ -12,7 +12,7 @@
     <li><a href="#template">Szablon strony html5</a></li>
     <li><a href="#example">Przykład konwersji tekstu z edytora na html</a></li>
     <li><a href="#inlineandline">Elementy blokowe i liniowe w html</a></li>
-    <li><a href="#contact">Nagłówki w html</a></li>
+    <li><a href="#hedings">Nagłówki w html</a></li>
     <li><a href="#listofmarkup">Lista znaczników w HTML5</a></li>
   </ol>
 </details>
@@ -207,6 +207,30 @@ Przykłady elementów liniowych:
 - **Elementy liniowe** służą do formatowania tekstu i innych treści wewnątrz elementów blokowych.
 
 
+
+<p align="right">(<a href="#readme-top">Wróć na góre</a>)</p>
+
+<a id="hedings"></a>
+#Nagłówki w html
+
+```
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Przykład nagłówków HTML</title>
+</head>
+<body>
+    <h1>To jest nagłówek H1 (najwyższego poziomu)</h1>
+    <h2>To jest nagłówek H2</h2>
+    <h3>To jest nagłówek H3</h3>
+    <h4>To jest nagłówek H4</h4>
+    <h5>To jest nagłówek H5</h5>
+    <h6>To jest nagłówek H6 (najniższego poziomu)</h6>
+</body>
+</html>
+```
 
 <p align="right">(<a href="#readme-top">Wróć na góre</a>)</p>
 
