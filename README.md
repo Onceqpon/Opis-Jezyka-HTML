@@ -1,4 +1,4 @@
-![obraz](https://github.com/user-attachments/assets/9af3de17-2210-494a-a0d4-fff37fc8d056)<a id="readme-top"></a>
+<a id="readme-top"></a>
 
 <br />
 <div algin="center">
@@ -27,6 +27,9 @@ HTML - HyperText Markup Language
 HTML nie jest językiem programowania np. ```<p>```, jest językiem znaczników który opisuje co ma być wyświetlane w przeglądarce
 
 Skrót tworzący podstawowy szablon strony: !
+
+![obraz](https://github.com/user-attachments/assets/5da7475d-4045-439c-8920-310f0094ff4c)
+
 
 #Części składowe znaczników
 
