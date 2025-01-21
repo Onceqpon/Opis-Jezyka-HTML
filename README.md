@@ -133,46 +133,72 @@ W żródle storny internetowej można wyróżnić kilka podstawowych elementów:
 # Elementy blokowe i liniowe w HTML
 
 ## Elementy blokowe
-Elementy blokowe zajmują całą dostępną szerokość rodzica i rozpoczynają się od nowej linii.  
+Elementy blokowe zajmują całą szerokość rodzica i rozpoczynają się od nowej linii.  
 Przykłady elementów blokowych:
-- `<div>` — ogólny kontener.
-- `<p>` — paragraf.
-- `<h1>` - `<h6>` — nagłówki.
-- `<section>` — sekcja tematyczna.
+- `<address>` — adres kontaktowy.
 - `<article>` — niezależny fragment treści.
 - `<aside>` — zawartość poboczna (np. pasek boczny).
-- `<header>` — nagłówek sekcji lub strony.
+- `<blockquote>` — cytat blokowy.
+- `<details>` — rozwijany szczegół.
+- `<dialog>` — dialog (okno dialogowe).
+- `<div>` — ogólny kontener.
+- `<dl>` — lista definicji.
+- `<fieldset>` — grupa elementów formularza.
+- `<figcaption>` — podpis pod elementem `<figure>`.
+- `<figure>` — grupa treści multimedialnych (np. obraz z podpisem).
 - `<footer>` — stopka sekcji lub strony.
+- `<form>` — formularz.
+- `<h1>` - `<h6>` — nagłówki o różnym poziomie.
+- `<header>` — nagłówek sekcji lub strony.
+- `<hr>` — pozioma linia oddzielająca sekcje (self-closing).
+- `<li>` — element listy.
 - `<main>` — główna zawartość strony.
 - `<nav>` — nawigacja.
-- `<figure>` — grupa treści multimedialnych (np. obraz z podpisem).
-- `<figcaption>` — podpis pod elementem `<figure>`.
-- `<table>` — tabela.
-- `<ul>` — lista nieuporządkowana.
 - `<ol>` — lista uporządkowana.
-- `<li>` — element listy.
-- `<form>` — formularz.
+- `<p>` — paragraf.
+- `<pre>` — tekst preformatowany (zachowuje białe znaki).
+- `<section>` — sekcja tematyczna.
+- `<table>` — tabela.
+- `<tbody>` — ciało tabeli.
+- `<td>` — komórka tabeli.
+- `<tfoot>` — stopka tabeli.
+- `<th>` — komórka nagłówkowa tabeli.
+- `<thead>` — nagłówek tabeli.
+- `<tr>` — wiersz tabeli.
+- `<ul>` — lista nieuporządkowana.
 
 ## Elementy liniowe
 Elementy liniowe zajmują tylko tyle miejsca, ile wymaga ich treść, i mogą być umieszczane obok siebie w jednym wierszu.  
 Przykłady elementów liniowych:
-- `<span>` — ogólny inline kontener.
 - `<a>` — link.
-- `<img>` — obraz.
-- `<strong>` — pogrubiony tekst.
-- `<b>` — tekst pogrubiony (bez nacisku na znaczenie).
-- `<i>` — pochylony tekst (bez nacisku na znaczenie).
-- `<em>` — pochylony tekst (z naciskiem na znaczenie).
-- `<u>` — podkreślony tekst.
-- `<small>` — pomniejszony tekst.
-- `<mark>` — podświetlony tekst.
 - `<abbr>` — skrót.
-- `<code>` — fragment kodu.
-- `<q>` — cytat inline.
+- `<b>` — tekst pogrubiony (bez nacisku na znaczenie).
+- `<bdi>` — tekst izolowany pod względem kierunku pisma.
+- `<bdo>` — zmiana kierunku tekstu.
 - `<br>` — nowa linia (self-closing).
+- `<cite>` — tytuł pracy lub cytat.
+- `<code>` — fragment kodu.
+- `<data>` — dane o maszynowym znaczeniu.
+- `<dfn>` — definicja terminu.
+- `<em>` — tekst pochylony (z naciskiem na znaczenie).
+- `<i>` — pochylony tekst (bez nacisku na znaczenie).
+- `<img>` — obraz (self-closing).
+- `<input>` — pole formularza (self-closing).
+- `<kbd>` — tekst reprezentujący wejście z klawiatury.
+- `<label>` — etykieta formularza.
+- `<mark>` — podświetlony tekst.
+- `<q>` — cytat inline.
+- `<s>` — tekst przekreślony (oznacza nieaktualne informacje).
+- `<samp>` — przykład wyjścia programu.
+- `<small>` — pomniejszony tekst.
+- `<span>` — ogólny inline kontener.
+- `<strong>` — tekst pogrubiony (z naciskiem na znaczenie).
 - `<sub>` — indeks dolny.
 - `<sup>` — indeks górny.
 - `<time>` — data lub czas.
+- `<u>` — podkreślony tekst.
+- `<var>` — zmienna matematyczna lub w kodzie.
+- `<wbr>` — sugerowane miejsce podziału linii (self-closing).
 
 ---
 
@@ -181,11 +207,72 @@ Przykłady elementów liniowych:
 - **Elementy liniowe** służą do formatowania tekstu i innych treści wewnątrz elementów blokowych.
 
 
+
 <p align="right">(<a href="#readme-top">Wróć na góre</a>)</p>
 
 
 <a id="listofmarkup"></a>
+
 # Lista znaczników HTML5
+
+1. **Strukturalne (Semantyczne)**
+
+    `<html>`, `<head>`, `<body>`, `<header>`, `<footer>`, `<main>`, `<section>`, `<article>`, `<aside>`, `<nav>`, `<div>`, `<search>`
+
+2. **Metadane dokumentu**
+
+    `<base>`, `<meta>`, `<link>`, `<style>`, `<title>`
+
+3. **Sekcjonowanie treści**
+
+    `<address>`, `<h1>` - `<h6>`, `<hgroup>`, `<header>`, `<footer>`, `<article>`, `<section>`, `<nav>`, `<aside>`, `<main>`
+
+4. **Tekstowe**
+
+    `<p>`, `<br>`, `<hr>`, `<blockquote>`, `<q>`, `<pre>`, `<code>`, `<abbr>`, `<cite>`, `<small>`, `<strong>`, `<em>`, `<mark>`, `<b>`, `<i>`, `<u>`, `<s>`, `<kbd>`, `<samp>`, `<var>`, `<sub>`, `<sup>`, `<time>`
+
+5. **Listy**
+
+    `<ul>`, `<ol>`, `<li>`, `<dl>`, `<dt>`, `<dd>`, `<menu>`
+
+6. **Multimedia**
+
+    `<img>`, `<audio>`, `<video>`, `<source>`, `<track>`, `<map>`, `<area>`, `<picture>`
+
+7. **Osadzone treści**
+
+    `<iframe>`, `<embed>`, `<object>`, `<param>`
+
+8. **Elementy formularzy**
+
+    `<form>`, `<input>`, `<textarea>`, `<button>`, `<select>`, `<option>`, `<optgroup>`, `<fieldset>`, `<legend>`, `<datalist>`, `<output>`, `<progress>`, `<meter>`, `<label>`
+
+9. **Tabela**
+
+    `<table>`, `<thead>`, `<tfoot>`, `<tbody>`, `<tr>`, `<th>`, `<td>`, `<caption>`, `<col>`, `<colgroup>`
+
+10. **Interaktywne elementy**
+
+    `<details>`, `<summary>`, `<dialog>`
+
+11. **Komponenty Webowe**
+
+    `<template>`, `<slot>`
+
+12. **SVG i MathML**
+
+    `<svg>`, `<math>`
+
+13. **Skrypty**
+
+    `<script>`, `<noscript>`, `<canvas>`
+
+14. **Przestarzałe elementy (Nie zaleca się używania)**
+
+    `<big>`, `<center>`, `<font>`, `<marquee>`, `<tt>`, `<strike>`, `<acronym>`, `<xmp>`
+
+
+# Lista znaczników HTML5 z opisem
 
 ## Strukturalne (Semantyczne)
 - `<html>` — Główny element dokumentu HTML.
@@ -199,6 +286,9 @@ Przykłady elementów liniowych:
 - `<aside>` — Zawartość poboczna (np. pasek boczny).
 - `<main>` — Główna treść dokumentu.
 - `<div>` — Ogólny kontener dla grupowania elementów.
+- `<details>` — Rozwijany szczegół.
+- `<summary>` — Podsumowanie dla elementu `<details>`.
+- `<dialog>` — Dialog (okno dialogowe).
 
 ## Tekstowe
 - `<h1>` - `<h6>` — Nagłówki o różnym poziomie ważności (od największego `h1` do najmniejszego `h6`).
@@ -217,6 +307,15 @@ Przykłady elementów liniowych:
 - `<small>` — Pomniejszony tekst.
 - `<del>` — Tekst przekreślony.
 - `<ins>` — Tekst dodany.
+- `<sub>` — Indeks dolny.
+- `<sup>` — Indeks górny.
+- `<bdi>` — Izolacja kierunku tekstu.
+- `<bdo>` — Nadpisanie kierunku tekstu.
+- `<s>` — Przekreślony tekst (oznacza nieaktualne informacje).
+- `<q>` — Cytat inline.
+- `<samp>` — Przykład wyjścia programu.
+- `<var>` — Zmienna w kodzie lub matematyce.
+- `<kbd>` — Wprowadzanie z klawiatury.
 
 ## Listy
 - `<ul>` — Lista nieuporządkowana.
@@ -232,6 +331,9 @@ Przykłady elementów liniowych:
 - `<audio>` — Audio.
 - `<source>` — Źródło dla mediów (self-closing).
 - `<track>` — Napisy dla mediów (self-closing).
+- `<picture>` — Kontener dla obrazów o różnych rozmiarach.
+- `<map>` — Mapowanie obrazów.
+- `<area>` — Aktywny obszar w mapie obrazów (self-closing).
 
 ## Linki i nawigacja
 - `<a>` — Link.
@@ -245,6 +347,9 @@ Przykłady elementów liniowych:
 - `<tr>` — Wiersz tabeli.
 - `<th>` — Komórka nagłówkowa tabeli.
 - `<td>` — Komórka tabeli.
+- `<caption>` — Tytuł tabeli.
+- `<colgroup>` — Grupa kolumn.
+- `<col>` — Kolumna w tabeli.
 
 ## Formularze
 - `<form>` — Formularz.
@@ -256,6 +361,9 @@ Przykłady elementów liniowych:
 - `<label>` — Etykieta dla elementu formularza.
 - `<fieldset>` — Grupa pól formularza.
 - `<legend>` — Tytuł grupy pól formularza.
+- `<datalist>` — Lista predefiniowanych wartości dla `<input>`.
+- `<output>` — Wynik operacji.
+- `<optgroup>` — Grupa opcji w `<select>`.
 
 ## Meta i skrypty
 - `<meta>` — Informacje o dokumencie (self-closing).
@@ -263,6 +371,7 @@ Przykłady elementów liniowych:
 - `<style>` — Wbudowane style CSS.
 - `<script>` — Skrypty JavaScript.
 - `<title>` — Tytuł dokumentu.
+- `<noscript>` — Treść wyświetlana, gdy skrypty są wyłączone.
 
 ## Inne
 - `<canvas>` — Obszar do rysowania grafiki.
@@ -277,6 +386,10 @@ Przykłady elementów liniowych:
 - `<abbr>` — Skrót.
 - `<data>` — Dane z maszynowym znaczeniem.
 - `<time>` — Reprezentacja czasu lub daty.
+- `<template>` — Szablon treści.
+- `<slot>` — Miejsce na treść w komponencie.
+- `<wbr>` — Opcjonalne miejsce podziału linii (self-closing).
+
 
 
 <p align="right">(<a href="#readme-top">Wróć na góre</a>)</p>
