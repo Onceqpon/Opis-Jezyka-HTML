@@ -10,7 +10,7 @@
   <ol>
     <li><a href="#wprowadzenie-do-html">Wprowadzenie do HTML - znaczniki</a></li>
     <li><a href="#template">Szablon strony html5</a></li>
-    <li><a href="#contributing">Przykład konwersji tekstu z edytora na html</a></li>
+    <li><a href="#example">Przykład konwersji tekstu z edytora na html</a></li>
     <li><a href="#license">Elementy blokowe i liniowe w html</a></li>
     <li><a href="#contact">Nagłówki w html</a></li>
     <li><a href="#listofmarkup">Lista znaczników w HTML5</a></li>
@@ -79,6 +79,53 @@ W żródle storny internetowej można wyróżnić kilka podstawowych elementów:
 - Sekcję head - nagłówek dokumentu, czytany wyłącznie przez przeglądarkę. Zawiera tytuł strony, adresy do plików Javascript czy arkuszy stylów oraz znaczniki meta
 - Sekcję body - główna treść strony tzw. ciało dokumentu prezentowane użytkownikowi
 
+<p align="right">(<a href="#readme-top">Wróć na góre</a>)</p>
+
+<a id="example"></a>
+## Przykład konwersji tekstu z edytora na html
+
+```<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tytuł artykułu</title>
+</head>
+<body>
+    <!-- Nagłówek główny -->
+    <h1>Tytuł artykułu</h1>
+
+    <!-- Paragraf powitalny -->
+    <p>Witaj w naszym artykule! Oto lista rzeczy do zrobienia:</p>
+
+    <!-- Lista numerowana -->
+    <ol>
+        <li>Sprawdź zadania.</li>
+        <li>Dodaj zdjęcia.</li>
+        <li>Publikuj artykuł.</li>
+    </ol>
+
+    <!-- Cytat blokowy -->
+    <blockquote>Cytat: "Inspiracja jest kluczem do sukcesu."</blockquote>
+
+    <!-- Link do strony -->
+    <p>Na koniec możesz odwiedzić 
+        <a href="http://www.example.com" target="_blank">naszą stronę</a> 
+        lub obejrzeć ten obrazek:
+    </p>
+
+    <!-- Obrazek -->
+    <img src="obrazek.jpg" alt="Przykładowy obrazek">
+
+    <!-- Formatowanie tekstu -->
+    <p>
+        <u>Podkreślony tekst</u>, 
+        <i>pochylony tekst</i> i 
+        <strong>tekst pogrubiony</strong>.
+    </p>
+</body>
+</html>
+```
 
 <p align="right">(<a href="#readme-top">Wróć na góre</a>)</p>
 
