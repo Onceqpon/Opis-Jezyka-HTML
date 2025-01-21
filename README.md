@@ -1,4 +1,4 @@
-<a id="readme-top"></a>
+![obraz](https://github.com/user-attachments/assets/9af3de17-2210-494a-a0d4-fff37fc8d056)<a id="readme-top"></a>
 
 <br />
 <div algin="center">
@@ -48,6 +48,21 @@ Znaczniki(tagi) dają informację przeglądarce na temat:
   * ```<a href="www.google.pl">ling do strony google</a>```
  
 ![obraz](https://github.com/user-attachments/assets/6508f242-f457-41d3-8501-a6f48687fabe)
+
+
+Zagnieżdżanie znaczników:
+- Prawidłowe( znacznik u rozpoczął się i zakończył wewnątrz p):
+  *```<p>Lorem ipsum dolor sit,<u>consectetur</u> adipiscing.</p>```
+  
+- Błędne(ponieważ tag u będący wewnątrz paragrafu powinien się w nim zakończyć):
+  *```<p>Lorem ipsum dolor sit,<u>consectetur adipiscing.</p></u>```
+
+Pojedyńcze znaczniki tzw. "closing tags": (są to tagi bez znacznika zamykającego, nie jest wymagany dla nich użycie slasha "/") przykład:
+* ```<hr>``` - horyzontalna linia na całą szerokość
+* ```<br>``` - nowa linia
+* ```<img src="obrazek.jpg">``` - wyświetla zdjęcie na stronie
+* ```<input type="text">``` - kontrolka folmularza
+* Dodatkowo również: ```<link> i <meta>```
     
 
 
