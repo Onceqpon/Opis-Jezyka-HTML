@@ -1,4 +1,4 @@
-![obraz](https://github.com/user-attachments/assets/5d5ca3cc-e724-40be-b9f5-39c4168746d5)<a id="readme-top"></a>
+<a id="readme-top"></a>
 
 <br />
 <div algin="center">
@@ -17,7 +17,7 @@
   </ol>
 </details>
 
-
+<a id="wprowadzenie-do-html"></a>
 ## Wprowadzenie do HTML - znaczniki
 Edytor Kodu: Visual Code
 Przydatne Rozszerzenie: Live Server
