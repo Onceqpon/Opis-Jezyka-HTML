@@ -9,7 +9,7 @@
   <summary>Spis Treści</summary>
   <ol>
     <li><a href="#wprowadzenie-do-html">Wprowadzenie do HTML - znaczniki</a></li>
-    <li><a href="#roadmap">Szablon strony html5</a></li>
+    <li><a href="#template">Szablon strony html5</a></li>
     <li><a href="#contributing">Przykład konwersji tekstu z edytora na html</a></li>
     <li><a href="#license">Elementy blokowe i liniowe w html</a></li>
     <li><a href="#contact">Nagłówki w html</a></li>
@@ -25,11 +25,6 @@ Przydatne Rozszerzenie: Live Server
 HTML - HyperText Markup Language 
 <br>
 HTML nie jest językiem programowania np. ```<p>```, jest językiem znaczników który opisuje co ma być wyświetlane w przeglądarce
-
-Skrót tworzący podstawowy szablon strony: !
-
-![obraz](https://github.com/user-attachments/assets/5da7475d-4045-439c-8920-310f0094ff4c)
-
 
 #Części składowe znaczników
 
@@ -72,8 +67,18 @@ Pojedyńcze znaczniki tzw. "closing tags": (są to tagi bez znacznika zamykając
 
 <p align="right">(<a href="#readme-top">Wróć na góre</a>)</p>
 
-<a id="wprowadzenie-do-html"></a>
-## Wprowadzenie do HTML - znaczniki
+<a id="template"></a>
+## Szablon strony html5
+
+Skrót tworzący podstawowy szablon strony: !
+
+![obraz](https://github.com/user-attachments/assets/5da7475d-4045-439c-8920-310f0094ff4c)
+
+W żródle storny internetowej można wyróżnić kilka podstawowych elementów:
+- Deklarację doctype - to deklaracja dla przeglądarki określająca wersję dokumentu html (Nie jest tagiem)
+- Sekcję head - nagłówek dokumentu, czytany wyłącznie przez przeglądarkę. Zawiera tytuł strony, adresy do plików Javascript czy arkuszy stylów oraz znaczniki meta
+- Sekcję body - główna treść strony tzw. ciało dokumentu prezentowane użytkownikowi
+
 
 <p align="right">(<a href="#readme-top">Wróć na góre</a>)</p>
 
