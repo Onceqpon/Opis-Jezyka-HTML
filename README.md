@@ -13,7 +13,7 @@
     <li><a href="#contributing">Przykład konwersji tekstu z edytora na html</a></li>
     <li><a href="#license">Elementy blokowe i liniowe w html</a></li>
     <li><a href="#contact">Nagłówki w html</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#listofmarkup">Lista znaczników w HTML5</a></li>
   </ol>
 </details>
 
@@ -76,3 +76,108 @@ Pojedyńcze znaczniki tzw. "closing tags": (są to tagi bez znacznika zamykając
 ## Wprowadzenie do HTML - znaczniki
 
 <p align="right">(<a href="#readme-top">Wróć na góre</a>)</p>
+
+<a id="listofmarkup"></a>
+# Lista znaczników HTML5
+
+## Strukturalne (Semantyczne)
+- `<html>` — Główny element dokumentu HTML.
+- `<head>` — Sekcja zawierająca meta-informacje o dokumencie.
+- `<body>` — Główna część dokumentu HTML.
+- `<header>` — Nagłówek sekcji lub strony.
+- `<footer>` — Stopka sekcji lub strony.
+- `<section>` — Sekcja tematyczna dokumentu.
+- `<article>` — Niezależna część dokumentu (np. artykuł, wpis na blogu).
+- `<nav>` — Nawigacja w dokumencie.
+- `<aside>` — Zawartość poboczna (np. pasek boczny).
+- `<main>` — Główna treść dokumentu.
+- `<div>` — Ogólny kontener dla grupowania elementów.
+
+## Tekstowe
+- `<h1>` - `<h6>` — Nagłówki o różnym poziomie ważności (od największego `h1` do najmniejszego `h6`).
+- `<p>` — Paragraf tekstu.
+- `<span>` — Inline element dla grupowania tekstu.
+- `<br>` — Nowa linia (self-closing).
+- `<hr>` — Linia horyzontalna (self-closing).
+
+## Formatowanie tekstu
+- `<b>` — Tekst pogrubiony (bez nacisku na znaczenie).
+- `<strong>` — Tekst pogrubiony (z naciskiem na znaczenie).
+- `<i>` — Tekst pochylony (bez nacisku na znaczenie).
+- `<em>` — Tekst pochylony (z naciskiem na znaczenie).
+- `<u>` — Podkreślenie tekstu.
+- `<mark>` — Tekst podświetlony.
+- `<small>` — Pomniejszony tekst.
+- `<del>` — Tekst przekreślony.
+- `<ins>` — Tekst dodany.
+
+## Listy
+- `<ul>` — Lista nieuporządkowana.
+- `<ol>` — Lista uporządkowana.
+- `<li>` — Element listy.
+- `<dl>` — Lista definicji.
+- `<dt>` — Termin w liście definicji.
+- `<dd>` — Definicja terminu.
+
+## Media
+- `<img>` — Obraz (self-closing).
+- `<video>` — Wideo.
+- `<audio>` — Audio.
+- `<source>` — Źródło dla mediów (self-closing).
+- `<track>` — Napisy dla mediów (self-closing).
+
+## Linki i nawigacja
+- `<a>` — Link.
+- `<nav>` — Nawigacja.
+
+## Tabele
+- `<table>` — Tabela.
+- `<thead>` — Nagłówek tabeli.
+- `<tbody>` — Ciało tabeli.
+- `<tfoot>` — Stopka tabeli.
+- `<tr>` — Wiersz tabeli.
+- `<th>` — Komórka nagłówkowa tabeli.
+- `<td>` — Komórka tabeli.
+
+## Formularze
+- `<form>` — Formularz.
+- `<input>` — Pole formularza (self-closing).
+- `<textarea>` — Obszar tekstowy.
+- `<button>` — Przycisk.
+- `<select>` — Pole wyboru.
+- `<option>` — Opcja w polu wyboru.
+- `<label>` — Etykieta dla elementu formularza.
+- `<fieldset>` — Grupa pól formularza.
+- `<legend>` — Tytuł grupy pól formularza.
+
+## Meta i skrypty
+- `<meta>` — Informacje o dokumencie (self-closing).
+- `<link>` — Połączenie z zewnętrznym zasobem (self-closing).
+- `<style>` — Wbudowane style CSS.
+- `<script>` — Skrypty JavaScript.
+- `<title>` — Tytuł dokumentu.
+
+## Inne
+- `<canvas>` — Obszar do rysowania grafiki.
+- `<svg>` — Grafika wektorowa.
+- `<iframe>` — Wbudowana ramka.
+- `<progress>` — Pasek postępu.
+- `<meter>` — Wartość w zakresie.
+- `<code>` — Fragment kodu.
+- `<pre>` — Sformatowany tekst (zachowanie białych znaków).
+- `<blockquote>` — Cytat blokowy.
+- `<cite>` — Źródło cytatu.
+- `<abbr>` — Skrót.
+- `<data>` — Dane z maszynowym znaczeniem.
+- `<time>` — Reprezentacja czasu lub daty.
+
+
+<p align="right">(<a href="#readme-top">Wróć na góre</a>)</p>
+
+
+
+<a id="wprowadzenie-do-html"></a>
+## Wprowadzenie do HTML - znaczniki
+
+<p align="right">(<a href="#readme-top">Wróć na góre</a>)</p>
+
