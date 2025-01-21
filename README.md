@@ -11,7 +11,7 @@
     <li><a href="#wprowadzenie-do-html">Wprowadzenie do HTML - znaczniki</a></li>
     <li><a href="#template">Szablon strony html5</a></li>
     <li><a href="#example">Przykład konwersji tekstu z edytora na html</a></li>
-    <li><a href="#license">Elementy blokowe i liniowe w html</a></li>
+    <li><a href="#inlineandline">Elementy blokowe i liniowe w html</a></li>
     <li><a href="#contact">Nagłówki w html</a></li>
     <li><a href="#listofmarkup">Lista znaczników w HTML5</a></li>
   </ol>
@@ -128,6 +128,61 @@ W żródle storny internetowej można wyróżnić kilka podstawowych elementów:
 ```
 
 <p align="right">(<a href="#readme-top">Wróć na góre</a>)</p>
+
+<a id="inlineandline"></a>
+# Elementy blokowe i liniowe w HTML
+
+## Elementy blokowe
+Elementy blokowe zajmują całą dostępną szerokość rodzica i rozpoczynają się od nowej linii.  
+Przykłady elementów blokowych:
+- `<div>` — ogólny kontener.
+- `<p>` — paragraf.
+- `<h1>` - `<h6>` — nagłówki.
+- `<section>` — sekcja tematyczna.
+- `<article>` — niezależny fragment treści.
+- `<aside>` — zawartość poboczna (np. pasek boczny).
+- `<header>` — nagłówek sekcji lub strony.
+- `<footer>` — stopka sekcji lub strony.
+- `<main>` — główna zawartość strony.
+- `<nav>` — nawigacja.
+- `<figure>` — grupa treści multimedialnych (np. obraz z podpisem).
+- `<figcaption>` — podpis pod elementem `<figure>`.
+- `<table>` — tabela.
+- `<ul>` — lista nieuporządkowana.
+- `<ol>` — lista uporządkowana.
+- `<li>` — element listy.
+- `<form>` — formularz.
+
+## Elementy liniowe
+Elementy liniowe zajmują tylko tyle miejsca, ile wymaga ich treść, i mogą być umieszczane obok siebie w jednym wierszu.  
+Przykłady elementów liniowych:
+- `<span>` — ogólny inline kontener.
+- `<a>` — link.
+- `<img>` — obraz.
+- `<strong>` — pogrubiony tekst.
+- `<b>` — tekst pogrubiony (bez nacisku na znaczenie).
+- `<i>` — pochylony tekst (bez nacisku na znaczenie).
+- `<em>` — pochylony tekst (z naciskiem na znaczenie).
+- `<u>` — podkreślony tekst.
+- `<small>` — pomniejszony tekst.
+- `<mark>` — podświetlony tekst.
+- `<abbr>` — skrót.
+- `<code>` — fragment kodu.
+- `<q>` — cytat inline.
+- `<br>` — nowa linia (self-closing).
+- `<sub>` — indeks dolny.
+- `<sup>` — indeks górny.
+- `<time>` — data lub czas.
+
+---
+
+## Podział funkcjonalny
+- **Elementy blokowe** są używane do tworzenia struktury i układu strony.
+- **Elementy liniowe** służą do formatowania tekstu i innych treści wewnątrz elementów blokowych.
+
+
+<p align="right">(<a href="#readme-top">Wróć na góre</a>)</p>
+
 
 <a id="listofmarkup"></a>
 # Lista znaczników HTML5
