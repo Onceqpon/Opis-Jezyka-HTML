@@ -22,7 +22,8 @@
 Edytor Kodu: Visual Code
 Przydatne Rozszerzenie: Live Server
 
-HTML - HyperText Markup Language
+HTML - HyperText Markup Language 
+<br>
 HTML nie jest językiem programowania, jest językiem znaczników który opisuje co ma być wyświetlane w przeglądarce
 
 Skrót tworzący podstawowy szablon strony: !
@@ -31,5 +32,18 @@ Skrót tworzący podstawowy szablon strony: !
 
 ![obraz](https://github.com/user-attachments/assets/f68ca555-f9db-4fb9-85ff-bd36997ee194)
 
-Każdy tag posiada swoją nazwę oraz ostre nawiasy np. <p>, a co jest pomiędzy tagiem otwierającym, a zamykającym staje się treścią konkretnego elementu, tutaj paragrafu. Dodatkowo tag zamykający musi mieć slash przed nazwą przez co określa, że w tym miejscu koczy się dany element.
+Każdy tag posiada swoją nazwę oraz ostre nawiasy, a co jest pomiędzy tagiem otwierającym, a zamykającym staje się treścią konkretnego elementu, tutaj paragrafu. Dodatkowo tag zamykający musi mieć slash przed nazwą przez co określa, że w tym miejscu koczy się dany element.
+
+Znaczniki(tagi) dają informację przeglądarce na temat:
+- Znaczenie tekstu:
+  * ```<h1>```
+  * You shouldn't be doing the same tasks over and over like creating a README from scratch
+  * You should implement DRY principles to the rest of your life :smile:
+
+
+<p align="right">(<a href="#readme-top">Wróć na góre</a>)</p>
+
+<a id="wprowadzenie-do-html"></a>
+## Wprowadzenie do HTML - znaczniki
+
 <p align="right">(<a href="#readme-top">Wróć na góre</a>)</p>
